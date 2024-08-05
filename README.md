@@ -1,6 +1,13 @@
 # arp-spoofer
 
-Usage: sudo arp_spoof.py [options]
+INSTALATION:
+git clone https://github.com/ilolm/arp-spoofer.git
+pip3 install -r requirements.txt
+chmod +x arp_spoof.py
+./arp_spoof.py [options]
+
+
+Usage: sudo ./arp_spoof.py [options]
 
 Options:
   -h, --help            show this help message and exit
