@@ -1,12 +1,24 @@
 # arp-spoofer
 
-INSTALATION:
+**DEPENDENCIES:**
+```
+python3
+```
+
+-------------------------------------------------------
+
+**INSTALLATION:**
+```
 git clone https://github.com/ilolm/arp-spoofer.git
+cd arp-spoofer
 pip3 install -r requirements.txt
 chmod +x arp_spoof.py
-./arp_spoof.py [options]
+```
 
+-------------------------------------------------------
 
+**USAGE:**
+```
 Usage: sudo ./arp_spoof.py [options]
 
 Options:
@@ -19,3 +31,4 @@ Options:
                         Set fullduplex? Set True or False. Default=True.
   -i IFACE, --iface=IFACE
                         Select an interface. Default - "eth0"
+```
